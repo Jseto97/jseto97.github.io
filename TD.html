@@ -28,14 +28,15 @@
 		<span>
 			<ul class="sub-menu ">
 				<li>
-					<a href="index.html" title="about">About Me</a>
+					<a href="index.html" title="about">Home</a>
 				</li>
 				<li>
-					<a href="index.html" title="My Work">My Work</a>
+					<a href="#projects" title="about">Projects</a>
 				</li>
 				<li>
-					<a href="https://docs.google.com/forms/d/e/1FAIpQLSf3E2aKRM0veyzLJl36xo-JJ8kFfoFKuUSkAVOAsJXpwuNu0g/viewform?usp=sf_link"  title="Contact form (will take you to an external page)">Let's Chat</a>
+					<a href="#take" title="My Work">Take Aways</a>
 				</li>
+
 			</ul>
 		</span>
 		<span class="cls"></span>
@@ -58,13 +59,14 @@
 					<p>Please contact me to view my patent work as the details are currently under NDA, if you have done so you can
 						view my work <strong><a class="und" href="https://goo.gl/forms/1IZU1uKEdrkHTcCt1">here</a></strong></p>
 			</div>
-				<div class="col-12 ">
+				<div id="projects" class="col-12 ">
 					<h1> Projects </h1>
 					<div class="list-group">
 						<a href="#pwa" class="list-group-item">PWA Investigation</a>
 						<a href="#analysis" class="list-group-item">TD Investment Competitor Analysis</a>
-						<a href="#TDI" class="list-group-item">TD Investment Onboarding (NDA)</a>
-						<a href="#TDI" class="list-group-item">TD Insurance Photo Based Estimation (NDA)</a>
+						<a href="#TDI" class="list-group-item">TD Investment Onboarding</a>
+						<a href="#TDin" class="list-group-item">TD Insurance Photo Based Estimation (NDA)</a>
+						<a href="#take" class="list-group-item">Conclusion</a>
 					</div>
 				</div>
 			<div id="pwa" class="col-12 col-md-6">
@@ -83,44 +85,81 @@
 			</div>
 				<div class="col-12 col-md-6"><img src="images/TD/PWA.svg"></div>
 <!--
+
+
 				//Comp Analysis -->
+				<div id="TDI" class="col-12">
+					<h2>TD Investment Onboarding</h2>
+					<p> The penultimate project of my time at TD was a massive undertaking that spanned 4 sprints and 3 months, which cumulated into motion a new framework for
+						customer onboarding.</p>
+						<h6>User Problem</h6>
+							<blockquote>The invesment onboarding process left much to be desired, a long jargon filled task that had a tremendous bounce rate,
+								how would we make this process simpler and easier to complete?
+							</blockquote>
+							<h6>Business Problem</h6>
+								<blockquote>Redesigning the onboarding process would be a time consuming, and more importantly, resource draining excercise for a task
+									that already existed, in what way could a solution reduce time to develop without compromising the experience?
+								</blockquote>
+							<h6> Ideation </h6>
+						<p>Traditionally trained as an experince designer I quickly came to a realization that in the world of project managment
+							the scope of development existed on a wholly different magnitude. Given the constraints of the project I looked for a solution
+							that would be applicable to multiple areas of the mobile experience and that would also cut out on design and development time.
+							With an orthodox redesign of the onboarding process requiring multiple design sprints as well as a large amount of screens and mockups
+							for each step of the onboarding process I instead drew inspiration from a daily task almost everybody has done - instant messaging.</p>
+							<h6> Research </h6>
+						<p>From a perspective of user experience, a previous study had already been conducted on the
+							implmentation of a potential chatbot within the TD app. In the globalized world we live in today, the nuances of communication especially
+							over the internet has become and ingrained and repeated habit. With this in mind I began to conduct a competitor analysis (seen below) of the marketplace.
+						</p>
+						<h6> Demo </h6>
+						<a href="http://huge-bite.surge.sh/" title="demo" class="und">demo</a>
+						<p>with competitor analysis completed, I then looked to quickly scaffold a demo that could highlight the benefits of a chat based onboarding
+						using my previous knowledge of development and a site called flowXO I was able to quickly create a prototype in one day, deploying
+						the site using surge and mimicking a mobile application using my PWA research. The result was prototype level demonstration
+						that far exceeded traditional timelines of development.</p>
+
+				</div>
+				<div class="col-6"> <img src="images/TD.svg"></div>
+				<div class="col-6"> <img src="images/TDchat.svg"></div>
+
 				<div id="analysis" class="col-12">
 					<h2>Chat Bot Competitor Analysis</h2>
-					<p> One of my earliest projects as a PM was to conduct competitor analysis for the release of TD's
-						<strong><a class="und" href="https://www.iphoneincanada.ca/news/td-canada-ios-app-td-clari/" title="Chatbot News">Chatbot</a></strong>.
-						This project would lead to the eventual creation of one of the defining projects of my internship.
+					<p> An integrated part of my research on the development of a chat based onboarding process was to conduct a competitor analysis of
+						similar onboarding processes within the market.
 						In order to visualize the data from my research I needed a way to display screens and user flows of multiple competitors
 						in a cohesive environment. I decided to deviate from the norm of slide decks and utilized my knowledge of the design tool
 						Figma to create an unorthodox break down of competitor onboarding. The result was a figma "mockup" that allowed the presenter
 						to easily navigate through multiple different screens, with notable elements being highlighted by figma comments.
-						My creative usage of a non-traditional methodology was presented to the wealth board of directors and commended, leading to the approval
-						of 7 million dollars in funding for the development of a chat-based onboarding process.
+						My creative usage of non-traditional methodology was presented to the wealth board of directors and commended, leading to the approval
+						of funding for the development of a chat-based onboarding process and
+						integration with the TD	<strong><a class="und" href="https://www.iphoneincanada.ca/news/td-canada-ios-app-td-clari/" title="Chatbot News">Chatbot</a></strong>.
+					</P>
 				</div>
 				<iframe class="col-12" style="border: none;" width="800" height="450"
 				src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FYX9ODSQ3v3qtmwkripLKQc8M%2FTD-Competitor-Analysis%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
 
-				<div id="TDI" class="col-12">
-					<h2>TD Investment Onboarding</h2>
-					<p> The penultimate project of my time at TD was a massive undertaking that spanned 4 sprints and 3 months, which cumulated into motion a new framework for
-						customer onboarding.
-				</div>
 
-				<div class="col-6"> <img src="images/TD.svg"></div>
-				<div class="col-6"> <img src="images/TDchat.svg"></div>
-
-				<div id="TDI" class="col-12">
+				<div id="TDin" class="col-12">
 					<h2>Photo Based Estimation</h2>
-						<strong><span>The details of this project are currently under NDA until April 4th 2020</span></strong>
-					<p> One of my earliest projects as a PM was to conduct competitor analysis for the release of TD's
-						<strong><a class="und" href="https://www.iphoneincanada.ca/news/td-canada-ios-app-td-clari/" title="Chatbot News">Chatbot</a></strong>.
-						This project would lead to the eventual creation of one of the defining projects of my internship.
-						In order to visualize the data from my research I needed a way to display screens and user flows of multiple competitors
-						in a cohesive environment. I decided to deviate from the norm of slide decks and utilized my knowledge of the design tool
-						Figma to create an unorthodox break down of competitor onboarding. The result was a figma "mockup" that allowed the presenter
-						to easily navigate through multiple different screens, with notable elements being highlighted by figma comments.
-						My creative usage of a non-traditional methodology was presented to the wealth board of directors and commended, leading to the approval
-						of 7 million dollars in funding for the development of a chat-based onboarding process.
+						<strong><span>The details of this project are currently under NDA until April 4th 2020 below is an excerpt of the problem
+						statement, please contact me if you are interested in learing more</span></strong>
+						<h6>The Problem</h6>
+							<blockquote>Users were failing to use the new photo submission claims properly, photos were often unclear, warped, or did not
+								meet the required parameters. In what way could we look to streamline the submission process so users would have
+								an easy and intutive way to submit and by pass the need for and insurance adjustor?
+							</blockquote>
 				</div>
+				<div id="take" class="col-12">
+					<h2>Take Aways</h2>
+					<p>My time at TD was an incredible learning experience that greatly improved my understanding of the depth of software development and design.
+						The internship challenged me to design solutions out side of the box, to breakdown challenges into synthesizable obstacles
+						and most importantly taught me the value of having a diverse skill set. Traditionally seeing myself as a black sheep of the design world
+						I operated on what I felt a different paradigm as my peers. The only windows user in a room full of macs, I would rather code up a prototype
+						using my front end stack than fire up photoshop. Yet my confidence as a designer and developer always felt lacking, a jack of all trades yet master
+						of none. Conversely my work at TD taught me to value my unique identity as both a designer and a developer. Through my knowledge of front end I was
+						able to create prototypes that went beyond what an invision mock up could do. Leveraging my skills as a designer I created a new framework for
+						mobile competitor analysis. From this I've learned the most important lesson of all, to value my diverse skillset as a strenght and not a weakness.
+					</p>
 		</div>
 	</section>
 

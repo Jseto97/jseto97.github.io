@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700,700i");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 .btn-primary {
   background-color: #466289;
   border: none;
@@ -568,6 +569,22 @@ a.list-group-item:hover {
   height: 100%;
 }
 
+h6 {
+  margin-top: 1em;
+}
+
+blockquote {
+  font-size: 1rem;
+  width: 100%;
+  font-family: Open Sans;
+  font-style: italic;
+  color: #555555;
+  padding: 1em;
+  border-left: 8px solid #3ECC7F;
+  line-height: 1.6;
+  position: relative;
+}
+
 /*---Media Queries --*/
 @media screen and (min-width: 1400px) {
   .landing h1 {
@@ -652,7 +669,7 @@ a.list-group-item:hover {
     display: none;
   }
 
-  .video-container {
+  iframe {
     display: none;
   }
 
