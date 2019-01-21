@@ -615,6 +615,10 @@ height: 100%;
   }
 
 @media screen and (max-width: 768px) {
+  .header{
+    display: none;
+  }
+  .video-container{display: none;}
     .open{
       right: 6%;
     }
