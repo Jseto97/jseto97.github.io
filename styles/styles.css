@@ -529,6 +529,22 @@ body {
   width: 90% !important;
 }
 
+.td {
+  display: flex;
+}
+.td .about {
+  margin: 0;
+}
+.td img {
+  max-width: 100%;
+}
+
+.green {
+  padding-bottom: 10%;
+  background-image: url("tdtower.svg");
+  background-size: cover;
+}
+
 /*---Media Queries --*/
 @media screen and (min-width: 1400px) {
   .landing h1 {
@@ -545,6 +561,12 @@ body {
 
   .landing .arrow {
     margin-top: -3%;
+  }
+
+  .green {
+    padding-bottom: 8%;
+    background-image: url("tdtower.svg");
+    background-size: cover;
   }
 }
 @media screen and (max-width: 1200px) {
