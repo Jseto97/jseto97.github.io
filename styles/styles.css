@@ -33,7 +33,7 @@ html {
 /* The progress bar (scroll indicator) */
 .progress-bar {
   height: 8px;
-  background: #28E199;
+  background: linear-gradient(180deg, #05E0DB 0%, rgba(255, 255, 255, 0) 100%), #11D1F2;
   width: 0%;
 }
 
