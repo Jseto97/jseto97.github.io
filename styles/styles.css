@@ -63,7 +63,7 @@ body {
   height: 4px;
   width: 40px;
   border-radius: 40px;
-  background-color: #28ff99;
+  background: linear-gradient(180deg, #05E0DB 0%, rgba(255, 255, 255, 0) 100%), #11D1F2;
   position: absolute;
   right: 3px;
   top: 3px;
